@@ -1,0 +1,14 @@
+form, select {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 600px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+h1, h2 {
+  
+  color: blue;
+}

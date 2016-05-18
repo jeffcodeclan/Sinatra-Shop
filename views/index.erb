@@ -1,0 +1,12 @@
+<h2>Shoe Orders</h2>
+
+<% @shoes.each do |shoe| %>
+  <b>Name:</b>
+  <p><%= shoe.pretty_name() %></p>
+
+  <b>Order:</b>
+  <p><%= shoe.quantity %> x <%= shoe.size %></p> 
+  <hr>
+  <% end %>
+
+  
